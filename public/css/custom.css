@@ -1,0 +1,146 @@
+/* Custom CSS */
+
+/* Navbar */
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand {
+  margin-right: 1rem;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.logo img {
+  width: 70px; /* Ubah ukuran logo jika perlu */
+  height: auto;
+}
+
+.navbar-nav .nav-link {
+  margin-top: 20px;
+  font-size: 1rem; /* Sesuaikan ukuran font */
+  padding: 0.5rem 1rem; /* Kurangi padding */
+}
+
+/* Navbar Centered Menu */
+.navbar-nav.mx-auto {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav.ms-auto {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0; /* Pastikan tidak ada margin kanan */
+}
+
+/* Banner */
+.banner img {
+  width: 100%;
+  height: auto;
+  margin-top: 0; /* Hilangkan margin atas pada banner */
+}
+
+/* Badge Customization */
+.badge-custom {
+  border-radius: 0 0.25rem 0 0.25rem;
+  padding: 0.4rem 1rem;
+}
+
+/* Price Style */
+.rent-price {
+  color: #b4b4b4;
+}
+
+.rent-price span {
+  font-size: 1.2rem;
+  color: #364d59;
+}
+
+/* Card Customization */
+.card-body-custom {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.mobil-info-list ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 0.5rem;
+  justify-self: center;
+}
+
+.mobil-info-list ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.4rem;
+}
+
+.mobil-info-list ul i {
+  color: salmon;
+  font-size: 1.2rem;
+}
+
+/* Page Layouts */
+.tim {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-us,
+.vehicle-gallery,
+.dashboard,
+.team,
+.register {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.features,
+.vehicle-cards,
+.stats,
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature,
+.vehicle-card,
+.stat,
+.team-member {
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.feature img,
+.vehicle-card img,
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  background-color: #333333;
+  color: white;
+  padding: 10px 0;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-content .social-media a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
